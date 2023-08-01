@@ -19,3 +19,6 @@ Route::post('exercicio/um',
 
 Route::post('exercicio/dois', 
 [ExercicioDoisController::class, 'retornarMaior']);
+
+Route::post('exercicio/tres', 
+[ExerciciotresoController::class, 'mediaAritimetica']);
