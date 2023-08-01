@@ -13,10 +13,14 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 
 ## Como utilizar este repositório
 
-Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
- git clone https://github.com/seu_usuario/repositorio.git
-Acesse o diretório do projeto:
+1. Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
+```
+ git clone https://github.com/gabigpalharini/exercicios-api.git
+ ```
+2. Acesse o diretório do projeto:
+```
 cd exercicios-api-json-php-laravel
+```
 
 ## Licença
 Este projeto está licenciado sob a MIT License, o que significa que você pode utilizá-lo livremente para fins educacionais, comerciais ou pessoais.
