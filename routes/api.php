@@ -1,5 +1,10 @@
 <?php
 
+use App\Http\Controllers\ExerciciocincoController;
+use App\Http\Controllers\ExercicioquatroController;
+use App\Http\Controllers\ExerciciosdoisController;
+use App\Http\Controllers\ExerciciosumController;
+use App\Http\Controllers\ExerciciotresoController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -15,10 +20,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('exercicio/um', 
-[ExercicioUmController::class, 'multiplicar']);
+[ExerciciosumController::class, 'multiplicar']);
 
 Route::post('exercicio/dois', 
-[ExercicioDoisController::class, 'retornarMaior']);
+[ExerciciosdoisController::class, 'retornarMaior']);
 
 Route::post('exercicio/tres', 
 [ExerciciotresoController::class, 'mediaAritimetica']);
